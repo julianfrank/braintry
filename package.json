@@ -1,0 +1,26 @@
+{
+  "name": "braintry",
+  "version": "1.0.0",
+  "description": "DNN try",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianfrank/braintry.git"
+  },
+  "keywords": [
+    "DNN",
+    "DL"
+  ],
+  "author": "Julian Frank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianfrank/braintry/issues"
+  },
+  "homepage": "https://github.com/julianfrank/braintry#readme",
+  "dependencies": {
+    "brain.js": "^0.7.0"
+  }
+}
