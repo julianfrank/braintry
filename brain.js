@@ -10,7 +10,8 @@ var brain = require('brain.js'),
             b: 0.5
         },
         output: {
-            black: 1
+            black: 1,
+            like: 1
         }
     }, {
         input: {
@@ -19,7 +20,8 @@ var brain = require('brain.js'),
             b: 0.2
         },
         output: {
-            black: 1
+            black: 1,
+            like: 0
         }
     }, {
         input: {
@@ -56,7 +58,8 @@ net.train([{
         b: 0.8
     },
     output: {
-        white: 1
+        white: 1,
+        like: 1
     }
 }], {
     errorThresh: 0.005, // error threshold to reach
